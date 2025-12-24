@@ -1,0 +1,106 @@
+body{
+   }
+header{
+    display: block;
+    width: 100%;height:auto;
+    background-color: red;
+    padding: 10px;
+    border: 20px 20px 20px 20px;
+    box-shadow: 10px 10px 10px 10px;
+   }
+header h1{
+font-size: 60px;text-align: center   ;color: white;
+
+}
+header h2{
+color: white;text-align: center;font-size: 40PX;
+
+}
+h1{
+    font-size: 50px;color: white;
+    text-align: center;
+}
+p{
+    font-size: 30px;color: white;text-align: center;
+}
+.painel{
+    display: block;
+    width: 100%;height: auto;
+    background-color: red;
+    margin: auto;
+    border: 20px 20px 20px 20px;
+    box-shadow: 10px 10px 10px 10px;
+    
+    
+}
+.projetos{
+    display: flex;
+    
+
+}
+.projeto1,.projeto2,.projeto3,.projeto4{
+   display: flow-root;
+   border-radius: 10px; 
+   width: 70%;height: auto;
+   background-color: white;
+   p{color: red;text-align: center;font-size: 30px;}
+   margin-left: 15px;
+}
+button{
+    display: block;
+    margin: auto;
+    background-color: red;
+   
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.contatos{
+    display: block;
+    width: 70%;height: auto;
+    background-color: red;
+    margin: auto;
+    box-shadow: 10px 10px 10px 10px;
+        border: 20px 20px 20px 20px;
+
+
+
+}
+.email{
+    display: block;
+    width: 65%;height: auto;
+    background-color: white;
+    margin: auto;
+       border-radius: 10px; 
+
+   
+}
+.email p{
+    color: red;
+
+}
+.email a{
+    color: red;
+    font-size: 25px;
+    text-decoration: none;
+}
+.redes{
+    display: block;
+    width: 80%;height: auto;
+    background-color: white;
+    margin: auto;
+       border-radius: 10px; 
+
+}
+.redes ul{
+    list-style: none;
+    color: red;
+    font-size: 25px;
+
+    
+    
+}
+
+
